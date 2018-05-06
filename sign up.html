@@ -1,9 +1,4 @@
 
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,56 +39,46 @@
                
                   
                 <form class="needs-validation" novalidate>
-                    <div >
-                      <div>
-                        <label for="validationCustom01">First name</label>
+                    <div style="margin-left:40%;">
+                        <img src="img\leadership.png" alt="Avatar" class="avatar">
+                      </div>
+                    <div style="margin-left:35%;" >
+                      <div >
+                        <label for="validationCustom01">First name</label><br>
                         <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
-                        <div class="valid-feedback">
-                          Looks good!
+                        <div class="invalid-feedback">
+                            Please provide a fname.                        </div>
+                      </div>
+                      <div>
+                        <label for="validationCustom02">Last name</label><br>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"required>
+                        <div class="invalid-feedback">
+                            Please provide a lname.                        </div>
+                      </div>
+                      <div >
+                          <label for="validationCustom03">E-mail</label><br>
+                          <input type="password" class="form-control" id="validationCustom03" placeholder="email" required>
+                          <div class="invalid-feedback">
+                            Please provide a email.
+                          </div>
+                        </div>
+                    
+   
+                      <div>
+                        <label for="validationCustom03">password</label><br>
+                        <input type="password" class="form-control" id="validationCustom03" placeholder="password" required>
+                        <div class="invalid-feedback">
+                          Please provide a password.
                         </div>
                       </div>
                       <div>
-                        <label for="validationCustom02">Last name</label>
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"required>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-3">
-                        <label for="validationCustomUsername">Username</label>
-                        <div class="input-group">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                          </div>
-                          <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                          <div class="invalid-feedback">
-                            Please choose a username.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="col-md-6 mb-3">
-                        <label for="validationCustom03">City</label>
-                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                        <label for="validationCustom04">repeat password</label><br>
+                        <input type="password" class="form-control" id="validationCustom04" placeholder="repeat password" required>
                         <div class="invalid-feedback">
-                          Please provide a valid city.
+                          Please provide a password.
                         </div>
-                      </div>
-                      <div class="col-md-3 mb-3">
-                        <label for="validationCustom04">State</label>
-                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                        <div class="invalid-feedback">
-                          Please provide a valid state.
-                        </div>
-                      </div>
-                      <div class="col-md-3 mb-3">
-                        <label for="validationCustom05">Zip</label>
-                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-                        <div class="invalid-feedback">
-                          Please provide a valid zip.
-                        </div>
-                      </div>
+                      
+                      
                     </div>
                     <div class="form-group">
                       <div class="form-check">
@@ -106,7 +91,9 @@
                         </div>
                       </div>
                     </div>
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+                   
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
                   </form>
                   
                   <script>
