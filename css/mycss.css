@@ -1,15 +1,29 @@
 /* title */
 .title{
-   margin-left:10%;
+   margin-left:13%;
+   margin-top: 5px;
 }
 /* logo */
 .logo{
     padding-top:15px; 
     width: 15%;
 }
+.logoP{
+    margin-left:40%;
+    padding-top:15px; 
+    width: 15%;
+}
 /* navbar */
 .bar{
 margin:20px 0 50px 0;
+}
+.bar img{
+    width: 40px;
+    height: 40px;
+}
+/* baner */
+.ban{
+width: 100%;
 }
 /* home background */
 .homebg{
@@ -44,6 +58,10 @@ margin:20px 0 50px 0;
 .ccard{
 margin-top: 30px
 }
+.pop img{
+    width:50px;
+    height:50 ;
+}
 
 #age{
  margin: 40px;
@@ -55,4 +73,18 @@ margin-top: 30px
 color: white;
 
 }
-
+footer img{
+    width: 50px;
+    height: 50px;
+}
+/* avatar */
+.avtr{
+    width: 200px;
+    height: 200px;
+}
+.cart{
+width: 500px;
+height:100%;
+float: right;
+margin: 50px;
+}
